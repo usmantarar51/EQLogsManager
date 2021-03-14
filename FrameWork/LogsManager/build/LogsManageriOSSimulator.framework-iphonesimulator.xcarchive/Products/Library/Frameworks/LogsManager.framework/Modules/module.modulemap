@@ -1,0 +1,11 @@
+framework module LogsManager {
+  umbrella header "LogsManager.h"
+
+  export *
+  module * { export * }
+}
+
+module LogsManager.Swift {
+    header "LogsManager-Swift.h"
+    requires objc
+}
